@@ -14,6 +14,6 @@
   },
   "dependencies": {
     "koa": "^2.14.2",
-    "neo4j-driver": "^5.9.0"
+    "neo4j-driver": "^5.11.0"
   }
 }
