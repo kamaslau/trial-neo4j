@@ -2,8 +2,16 @@
   "name": "trial-neo4j",
   "version": "1.0.0",
   "description": "",
-  "keywords": [],
-  "author": "Kamas Lau<kamaslau@dingtalk.com>",
+  "keywords": [
+    "neo4j",
+    "graphql",
+    "nodejs",
+    "koajs"
+  ],
+  "author": {
+    "name": "Lau, Kamas",
+    "email": "kamaslau@dingtalk.com"
+  },
   "license": "MIT",
   "main": "src/index.js",
   "type": "module",
