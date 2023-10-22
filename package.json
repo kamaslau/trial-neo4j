@@ -1,17 +1,14 @@
 {
   "name": "trial-neo4j",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "TODO Trial unit for Neo4j official Node.js driver",
   "keywords": [
     "neo4j",
     "graphql",
     "nodejs",
     "koajs"
   ],
-  "author": {
-    "name": "Lau, Kamas",
-    "email": "kamaslau@dingtalk.com"
-  },
+  "author": "Lau, Kamas <kamaslau@dingtalk.com> (https://www.kamaslau.com/)",
   "license": "MIT",
   "main": "src/index.js",
   "type": "module",
@@ -22,6 +19,6 @@
   },
   "dependencies": {
     "koa": "^2.14.2",
-    "neo4j-driver": "^5.12.0"
+    "neo4j-driver": "^5.13.0"
   }
 }
