@@ -19,22 +19,20 @@ Default logins should only be used in local/dev environments.
 
 ## Usage
 
-### Start a service group
-
-Manage service stack with [Docker Compose](https://docs.docker.com/compose/).
+### Start with [Docker Compose](https://docs.docker.com/compose/)
 
 ```bash
+# Initiate .env file
+cp .env_template .env
 # Start services
 docker compose up -d
-
-# Stop services and prune Docker volumes
-docker compose down -v
 ```
 
-To update containers with latest images:
+Update existing composed containers with latest images:
 
 ```bash
-docker compose pull
+docker compose pull && \
+docker compose down && \
 docker compose up -d
 ```
 
