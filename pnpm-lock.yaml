@@ -12,8 +12,8 @@ importers:
         specifier: ^2.15.3
         version: 2.15.3
       neo4j-driver:
-        specifier: ^5.25.0
-        version: 5.25.0
+        specifier: ^5.26.0
+        version: 5.26.0
 
 packages:
 
@@ -148,14 +148,14 @@ packages:
     resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
     engines: {node: '>= 0.6'}
 
-  neo4j-driver-bolt-connection@5.25.0:
-    resolution: {integrity: sha512-plQnrqu14rMLX4p/8a5/BjdFKbLihpslsV0+uTe+9sa1iAtelanTsgkPscZuQRW041anGvO0KE/vN7xqbPJaFg==}
+  neo4j-driver-bolt-connection@5.26.0:
+    resolution: {integrity: sha512-Tq548RNZJoQdmZhTRcUxDntU1DkNhhKF8oWWuCQ7OtX20EIYpIgVkQYWJu75bSiYyUGxmuSk4U02oXNBdggjgg==}
 
-  neo4j-driver-core@5.25.0:
-    resolution: {integrity: sha512-fdPAKlhtosNJw8eDrDZ+Krpgl9Yqe/dTUTVdU7Ud83E3QHl3ILp8n/uN7zyixf5sPI+11t/bqH4Z6vtANwYqPw==}
+  neo4j-driver-core@5.26.0:
+    resolution: {integrity: sha512-S3nHbqGuKPktWkRGenfx8Dt4MuqqrrUQjo4COhRj9r9P6WOjd0jzF/wyZb8H44pW5Qx/gmqn9B3If+7gfiaRmw==}
 
-  neo4j-driver@5.25.0:
-    resolution: {integrity: sha512-1CNl5ArQH5nXrH0sJOsrM3/ezra8ivxTeXiBzas1HBizi7zPXhrpnQTSDvFcTW1NV9GOioW8/ei7B59kcVaK3Q==}
+  neo4j-driver@5.26.0:
+    resolution: {integrity: sha512-cQEzXHmUxWb2uBOqsvjs3/GxyVtOgP6WsOpozqTvI47Zzopzw/4b/E4uCJQR5bIn1UXdcUfZKJ60jOmAzEvM8A==}
 
   on-finished@2.4.1:
     resolution: {integrity: sha512-oVlzkg3ENAhCk2zdv7IJwd/QUD4z2RxRwpkcGY8psCVcCYZNq4wYnVWALHM+brtuJjePWiYF/ClmuDr8Ch5+kg==}
@@ -339,18 +339,18 @@ snapshots:
 
   negotiator@0.6.3: {}
 
-  neo4j-driver-bolt-connection@5.25.0:
+  neo4j-driver-bolt-connection@5.26.0:
     dependencies:
       buffer: 6.0.3
-      neo4j-driver-core: 5.25.0
+      neo4j-driver-core: 5.26.0
       string_decoder: 1.3.0
 
-  neo4j-driver-core@5.25.0: {}
+  neo4j-driver-core@5.26.0: {}
 
-  neo4j-driver@5.25.0:
+  neo4j-driver@5.26.0:
     dependencies:
-      neo4j-driver-bolt-connection: 5.25.0
-      neo4j-driver-core: 5.25.0
+      neo4j-driver-bolt-connection: 5.26.0
+      neo4j-driver-core: 5.26.0
       rxjs: 7.8.1
 
   on-finished@2.4.1:

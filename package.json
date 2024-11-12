@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "koa": "^2.15.3",
-    "neo4j-driver": "^5.25.0"
+    "neo4j-driver": "^5.26.0"
   },
   "repository": {
     "type": "git",
