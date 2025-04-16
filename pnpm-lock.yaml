@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       koa:
-        specifier: ^2.15.3
-        version: 2.15.3
+        specifier: ^2.16.1
+        version: 2.16.1
       neo4j-driver:
-        specifier: ^5.26.0
-        version: 5.26.0
+        specifier: ^5.28.1
+        version: 5.28.1
 
 packages:
 
@@ -125,8 +125,8 @@ packages:
     resolution: {integrity: sha512-asOvN6bFlSnxewce2e/DK3p4tltyfC4VM7ZwuTuepI7dEQVcvpyFuBcEARu1+Hxg8DIwytce2n7jrZtRlPrARA==}
     engines: {node: '>= 10'}
 
-  koa@2.15.3:
-    resolution: {integrity: sha512-j/8tY9j5t+GVMLeioLaxweJiKUayFhlGqNTzf2ZGwL0ZCQijd2RLHK0SLW5Tsko8YyyqCZC2cojIb0/s62qTAg==}
+  koa@2.16.1:
+    resolution: {integrity: sha512-umfX9d3iuSxTQP4pnzLOz0HKnPg0FaUUIKcye2lOiz3KPu1Y3M3xlz76dISdFPQs37P9eJz1wUpcTS6KDPn9fA==}
     engines: {node: ^4.8.4 || ^6.10.1 || ^7.10.1 || >= 8.1.4}
 
   media-typer@0.3.0:
@@ -148,14 +148,14 @@ packages:
     resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
     engines: {node: '>= 0.6'}
 
-  neo4j-driver-bolt-connection@5.26.0:
-    resolution: {integrity: sha512-Tq548RNZJoQdmZhTRcUxDntU1DkNhhKF8oWWuCQ7OtX20EIYpIgVkQYWJu75bSiYyUGxmuSk4U02oXNBdggjgg==}
+  neo4j-driver-bolt-connection@5.28.1:
+    resolution: {integrity: sha512-nY8GBhjOW7J0rDtpiyJn6kFdk2OiNVZZhZrO8//mwNXnf5VQJ6HqZQTDthH/9pEaX0Jvbastz1xU7ZL8xzqY0w==}
 
-  neo4j-driver-core@5.26.0:
-    resolution: {integrity: sha512-S3nHbqGuKPktWkRGenfx8Dt4MuqqrrUQjo4COhRj9r9P6WOjd0jzF/wyZb8H44pW5Qx/gmqn9B3If+7gfiaRmw==}
+  neo4j-driver-core@5.28.1:
+    resolution: {integrity: sha512-14vN8TlxC0JvJYfjWic5PwjsZ38loQLOKFTXwk4fWLTbCk6VhrhubB2Jsy9Rz+gM6PtTor4+6ClBEFDp1q/c8g==}
 
-  neo4j-driver@5.26.0:
-    resolution: {integrity: sha512-cQEzXHmUxWb2uBOqsvjs3/GxyVtOgP6WsOpozqTvI47Zzopzw/4b/E4uCJQR5bIn1UXdcUfZKJ60jOmAzEvM8A==}
+  neo4j-driver@5.28.1:
+    resolution: {integrity: sha512-jbyBwyM0a3RLGcP43q3hIxPUPxA+1bE04RovOKdNAS42EtBMVCKcPSeOvWiHxgXp1ZFd0a8XqK+7LtguInOLUg==}
 
   on-finished@2.4.1:
     resolution: {integrity: sha512-oVlzkg3ENAhCk2zdv7IJwd/QUD4z2RxRwpkcGY8psCVcCYZNq4wYnVWALHM+brtuJjePWiYF/ClmuDr8Ch5+kg==}
@@ -299,7 +299,7 @@ snapshots:
       co: 4.6.0
       koa-compose: 4.1.0
 
-  koa@2.15.3:
+  koa@2.16.1:
     dependencies:
       accepts: 1.3.8
       cache-content-type: 1.0.1
@@ -339,18 +339,18 @@ snapshots:
 
   negotiator@0.6.3: {}
 
-  neo4j-driver-bolt-connection@5.26.0:
+  neo4j-driver-bolt-connection@5.28.1:
     dependencies:
       buffer: 6.0.3
-      neo4j-driver-core: 5.26.0
+      neo4j-driver-core: 5.28.1
       string_decoder: 1.3.0
 
-  neo4j-driver-core@5.26.0: {}
+  neo4j-driver-core@5.28.1: {}
 
-  neo4j-driver@5.26.0:
+  neo4j-driver@5.28.1:
     dependencies:
-      neo4j-driver-bolt-connection: 5.26.0
-      neo4j-driver-core: 5.26.0
+      neo4j-driver-bolt-connection: 5.28.1
+      neo4j-driver-core: 5.28.1
       rxjs: 7.8.1
 
   on-finished@2.4.1:

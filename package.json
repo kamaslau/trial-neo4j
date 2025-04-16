@@ -18,8 +18,8 @@
     "start": "NODE_ENV=production node ."
   },
   "dependencies": {
-    "koa": "^2.15.3",
-    "neo4j-driver": "^5.26.0"
+    "koa": "^2.16.1",
+    "neo4j-driver": "^5.28.1"
   },
   "repository": {
     "type": "git",
